@@ -1,0 +1,150 @@
+/* styling our "Home intro" */
+#nav {
+  background-color: silver;
+  color: black;
+}
+
+/* card index */
+#index {
+  margin-top: 5%;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* cv button */
+#cv {
+  border-radius: 15px;
+  background-color: red;
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 5px;
+}
+
+/* home text */
+#text {
+  margin-top: 20%;
+}
+
+
+/* styling our "About" */
+#about {
+  display: flex;
+  justify-content: center;
+  color: blue;
+  font-weight: bold;
+}
+
+
+
+/* STYLING our "Work" */
+#PARA {
+  font-weight: bold;
+}
+
+#color {
+  color: gold;
+}
+
+
+/* ===== SKILLS =====*/
+.skills__container {
+  row-gap: 2rem;
+  text-align: center;
+}
+
+.skills__subtitle {
+  margin-bottom: var(--mb-2);
+}
+
+.skills__text {
+  margin-bottom: var(--mb-4);
+}
+
+.skills__data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-weight: var(--font-semi);
+  padding: 0.5rem 1rem;
+  margin-bottom: var(--mb-4);
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+}
+
+.skills__icon {
+  font-size: 2rem;
+  margin-right: var(--mb-2);
+  color: var(--first-color);
+}
+
+.skills__names {
+  display: flex;
+  align-items: center;
+}
+
+.skills__bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: var(--first-color);
+  height: 0.25rem;
+  border-radius: 0.5rem;
+  z-index: var(--z-back);
+}
+
+.skills__html {
+  width: 65%;
+}
+
+.skills__css {
+  width: 50%;
+}
+
+.skills__js {
+  width: 10%;
+}
+
+.skills__php {
+  width: 10%;
+}
+
+.skills__img {
+  border-radius: 0.4rem;
+  margin-left: 30px;
+}
+
+/* here the contact */
+.contact-card {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  border-radius: 5px;
+  background-color: rgb(17, 207, 181);
+}
+
+.btn-submit {
+  background-color: blue;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.divider {
+  border-top: 2px solid #000000;
+  margin: 20px 0;
+}
+
+/* experience */
+#video{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#vid{
+  height: 90%;
+}
